@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, Tahoma;
+    font-style: italic;
+    background-color: mediumseagreen;
+}
+.container { /*Este es el contenedor padre y los elementos que siguen son los hijos*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.item {
+    padding: 25px;
+    background-color: mintcream;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+.item:hover { /*Efecto hover para los elementos hijos*/
+    background-color: palevioletred;
+    transform: scale(1.05);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
