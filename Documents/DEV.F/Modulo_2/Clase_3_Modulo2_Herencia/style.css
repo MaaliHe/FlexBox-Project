@@ -1,0 +1,31 @@
+body {
+    background-color: papayawhip;
+}
+
+.contenedor {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+    text-align: justify;
+    border: 3px solid black;
+    padding: 20px;
+}
+.contenedor span {
+    color: darkslateblue;
+    font-size: 20px;
+    font-style: italic;
+}
+.contenedor ol {
+    color:teal;
+    font-size: 15px;
+    font-style: oblique;
+}
+.contenedor-secundario {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: maroon;
+    text-align: justify;
+}
+.contenedor-secundario h3 {
+    color: darkslateblue;
+    font-size: 20px;
+    font-style: italic;
+}
